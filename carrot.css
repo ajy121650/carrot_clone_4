@@ -50,6 +50,10 @@
   gap: 0.2rem;
 }
 
+.body-first-download-button:hover {
+  background-color: #f06000;
+}
+
 .body-first-download-image {
   fill: #fff;
   vertical-align: middle;
@@ -110,10 +114,6 @@
 
 .body-buttons {
   margin-top: 30px;
-  display: flex;
-  flex-direction: column; /* 세로 방향으로 정렬 */
-  align-items: flex-start; /* 왼쪽 정렬 (필요에 따라 center 사용 가능) */
-  gap: 0px; /* 버튼 사이 간격 */
 }
 
 .body-button {
@@ -137,4 +137,44 @@
 .body-button:hover {
   /* 마우스를 올렸을 때 배경색 변경 */
   background-color: gainsboro;
+}
+
+.body-reverse {
+  /* 이미지와 텍스트의 위치를 변경 */
+  flex-direction: row-reverse;
+}
+
+.body-list {
+  margin-top: 50px;
+  /* 리스트를 가로로 정렬 */
+  display: flex;
+  /* 리스트 앞에 기호 없애기*/
+  list-style-type: none;
+  /* 리스트 간격 설정 */
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.body-list-item {
+  margin-right: 5px;
+  margin-left: 0px;
+  width: 140px;
+}
+
+ul li {
+  margin: 5px;
+}
+
+.body-item-title {
+  margin: 12px 0px 5px 0px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.body-item-desc {
+  font-weight: 400;
+  font-size: 13px;
+  color: #7c7c7c;
+  line-height: 17px;
 }
