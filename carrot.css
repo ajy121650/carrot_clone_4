@@ -307,18 +307,14 @@ ul li {
 .footer-menu {
   display: flex;
   flex-direction: row;
-  margin-right: 10px;
-  margin-left: 10px;
+  max-width: 76.8rem;
+  width: 120%;
 }
 
 .footer-menu-row {
   display: flex;
   flex-direction: column;
   padding-inline-start: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 8%;
   width: 33%;
   list-style-type: disc;
 }
@@ -340,7 +336,6 @@ ul li {
 }
 
 .download-button {
-  float: right;
   margin-top: 15px;
   display: flex;
   flex-direction: column;
@@ -369,7 +364,7 @@ ul li {
   font-size: 110%;
   padding: 0.4rem;
   white-space: nowrap;
-  width: 140px;
+  width: 147px;
   height: 47px;
 }
 
@@ -379,7 +374,7 @@ ul li {
 
 .footer-download-button div {
   width: 100%;
-  padding: 5px;
+  padding: 9px;
   border-radius: 10px;
   background-color: #eaebee;
   display: flex;
@@ -419,11 +414,11 @@ ul li {
   text-decoration: none;
   outline: 0;
   color: gray;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .footer-icon-language {
   color: gray;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   display: flex;
   padding: 0.8rem;
   border-radius: 0.4rem;
