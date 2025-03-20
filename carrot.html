@@ -11,8 +11,221 @@
     <title>당신 근처의 당근</title>
   </head>
   <body>
-    <header></header>
-    <body></body>
+    <header class="header">
+      <div class="header-left">
+        <div class="logo">
+          <a href="http://127.0.0.1:5500/carrot_clone_4/carrot.html">
+            <img src="./header_image/dangun.svg"/>
+          </a>
+        </div>
+        <div class="header-menu">
+          <a class="header-text" href=""> 중고거래 </a>
+          <a class="header-text" href=""> 동네업체 </a>
+          <a class="header-text" href=""> 알바 </a>
+          <a class="header-text" href=""> 부동산 직거래 </a>
+          <a class="header-text" href=""> 중고차 직거래 </a>
+        </div>
+      </div>
+      <div class="header-box">
+        <input class="search" placeholder="물품이나 동네를 검색해보세요"/>
+        <p class="chat"> 채팅하기</p> 
+      </div>
+    </header>
+    
+    <body>
+      <section id="body-first" class="body-section1">
+        <div id="body-first-main">
+          <!-- 첫 번째 section의 설명 -->
+          <div id="body-first-main-desc">
+            <h1 class="body-first-main-desc-title">
+              당신 근처의<br />
+              지역 생활 커뮤니티
+            </h1>
+            <p class="body-first-main-desc-text">
+              동네라서 가능한 모든 것
+              <br />
+              당근에서 가까운 이웃과 함께해요.
+            </p>
+          </div>
+          <!-- 첫 번째 section의 다운로드 버튼-->
+          <div id="body-first-download">
+            <a href="./carrot.html" class="body-first-download-button">
+              <img
+                src="./body_images/playstore-logo.svg"
+                class="body-first-download-image"
+                alt="구글플레이 아이콘"
+              />
+              <div class="body-first-download-text">Google Play</div>
+            </a>
+            <a href="./carrot.html" class="body-first-download-button">
+              <img
+                src="./body_images/appstore-logo.svg"
+                class="body-first-download-image"
+                alt="앱스토어 아이콘"
+              />
+              <div class="body-first-download-text">App Store</div>
+            </a>
+          </div>
+          <!-- 첫 번째 section의 이미지 -->
+          <div id="body-first-main-img">
+            <img
+              src="./body_images/image1.webp"
+              class="body-first-main-img"
+              alt="토당이 대문사진"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="body-section" >
+        <!--이미지와 content는 수평으로 나열-->
+        <div class="body-section-main">
+          <!-- 두 번째 section의 이미지 -->
+          <div class="body-img">
+            <img
+              src="./body_images/image2.webp"
+              class="body-img"
+              alt="인앱 홈페이지 사진"
+            />
+          </div>
+          <!-- content 내용들은 수직으로 나열되게 새로운 div로 감쌈-->
+          <div class="body-content">
+            <!-- 두 번째 section의 주황색 글씨-->
+            <p class="body-category">중고거래</p>
+            <!-- 두 번째 section의 굵은 글씨 -->
+            <h1 class="body-title">
+              믿을만한 <br />
+              이웃 간 중고거래
+            </h1>
+            <!-- 두 번째 section의 설명 -->
+            <p class="body-desc">
+              동네 주민들과 가깝고 따뜻한 거래를 <br />
+              지금 경험해보세요.
+            </p>
+            <!-- 두 번째 section의 버튼-->
+            <div class="body-buttons">
+              <!--href를 설정하지 않으면 자동으로 밑줄+default색상 변경이 일어나지 않음-->
+              <a class="body-button">인기매물 보기</a>
+              <a class="body-button">믿을 수 있는 중고거래</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="body-section" style ="background-color: #fff8f1"> <!-- 세 번째 section은 역순으로 표시 & 배경 색상 지정-->
+        <div class="body-section-main body-reverse">
+          <!-- 세 번째 section의 이미지 -->
+          <div class="body-img">
+            <img
+              src="./body_images/image3.webp"
+              class="body-img"
+              alt="동네 커뮤니티 사진"
+            />
+          </div>
+          <div class="body-content">
+            <!-- 세 번째 section의 주황색 글씨-->
+            <p class="body-category">동네생활</p>
+            <!-- 세 번째 section의 굵은 글씨 -->
+            <h1 class="body-title">
+              이웃만 아는 <br />
+              동네 정보와 이야기
+            </h1>
+            <!-- 세 번째 section의 설명 -->
+            <p class="body-desc">
+              우리동네의 다양한 정보와 이야기를 <br />
+              공감과 댓글로 나누어요.
+            </p>
+            <!-- 세 번째 section의 하위 리스트-->
+            <ul class="body-list">
+              <li class="body-list-item">
+                <img src="./body_images/b_list_image_1.svg" alt="사람 아이콘" class="body-item_image"/>
+                <p class="body-item-title">동네모임</p>
+                <p class="body-item-desc">
+                  근처 이웃들과 동네<br />
+                  이야기를 해보세요
+                </p>
+              </li>
+              <li class="body-list-item">
+                <img src="./body_images/b_list_image_2.svg" alt="질문 아이콘" class="body-item-image"/>
+                <p class="body-item-title">동네질문</p>
+                <p class="body-item-desc">
+                  궁금한 게 있을 땐<br />
+                  이웃에 물어보세요
+                </p>
+              </li>
+              <li class="body-list-item">
+                <img src="./body_images/b_list_image_3.svg" alt="분실물 아이콘" class="body-item-image" />
+                <p class="body-item-title">동네분실센터</p>
+                <p class="body-item-desc">  
+                  무언가를 잃어버렸다면<br />
+                  글을 올려보세요
+                </p>
+              </li>
+            </ul>
+          
+        </div>
+      </section>
+      <section class="body-section">
+        <div class="body-section-main">
+          <!-- 네 번째 section의 이미지 -->
+          <div class="body-img">
+            <img
+              src="./body_images/image4.webp"
+              class="body-img"
+              alt="알바 지원서 사진"
+            />
+          </div>
+          <!-- content 내용들은 수직으로 나열되게 새로운 div로 감쌈-->
+          <div class="body-content">
+            <!-- 네 번째 section의 주황색 글씨-->
+            <p class="body-category">알바</p>
+            <!-- 네 번째 section의 굵은 글씨 -->
+            <h1 class="body-title">
+              걸어서 10분! <br />
+              동네 알바 구하기
+            </h1>
+            <!-- 네 번째 section의 설명 -->
+            <p class="body-desc">
+              당근하듯 쉽고, 편하게 <br />
+              당근 알바로 동네 알바를 구할 수 있어요.
+            </p>
+            <!-- 네 번째 section의 버튼-->
+            <div class="body-buttons">
+              <a class="body-button">내근처 알바 보기</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="body-section" style="background-color: #f6fdec;">
+        <div class="body-section-main body-reverse">
+          <!-- 다섯 번째 section의 이미지 -->
+          <div class="body-img">
+            <img
+              src="./body_images/image5.webp"
+              class="body-img"
+              alt="내 근처 사진"
+            />
+          </div>
+          <div class="body-content">
+            <!-- 다섯 번째 section의 주황색 글씨-->
+            <p class="body-category">동네업체</p>
+            <!-- 다섯 번째 section의 굵은 글씨 -->
+            <h1 class="body-title">
+              내 근처에서 찾는 <br />
+              동네업체
+            </h1>
+            <!-- 다섯 번째 section의 설명 -->
+            <p class="body-desc">
+              이웃들의 추천 후기를 확인하고 <br />
+              동네 곳곳의 업체들을 찾을 수 있어요.
+            </p>
+            <!-- 다섯 번째 section의 버튼-->
+            <div class="body-buttons">
+              <a class="body-button">당근 동네업체 보기</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+     
     <footer id="footer_root">
       <div class="footer-body">
         <div class="footer-button">
